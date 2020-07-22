@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap');
+@import "css-reset.css";
+@import "top-section.css";
+@import "services.css";
+@import "portfolio-section.css";
+@import "footer-section.css";
+
+
+
+body{
+    background: #eeeeee;  
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 960px){
+    .container{width: 100%}
+}
+/* Phones */
+@media only screen and (max-width: 767px){
+    
+}
